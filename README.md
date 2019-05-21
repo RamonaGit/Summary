@@ -51,6 +51,8 @@ Detaillierte Befehle: https://confluence.atlassian.com/bitbucketserver/basic-git
 
 Ein Onlinedienst wie z.B. Github oder Bitbucket stellt eine Infrastuktur und Benutzeroberfläche für Git im Web zur Verfügung. Dieser hat einen Server, auf welchem Git installiert ist.
 
+<br>
+
 ## 2. Terminalemulation / command line
 
 Kommandos
@@ -64,6 +66,8 @@ Kommandos
 - .. : eine Ebene zurück
 
 "man" vor dem Kommando zeigt eine Anleitung
+
+<br>
 
 ## 3. Branches
 
@@ -80,5 +84,62 @@ Beispiel einer möglichen Strategie
 
 <img src="branching.jpg" alt="Branching" />
 
+<br>
+
 ## 4. Merge Konflikte
 
+???
+
+<br>
+
+## 5. Binärsystem
+
+<b>von binär nach dezimal</b>
+
+110100 = ?
+
+| 1x2<sup>5</sup> + | 1x2<sup>4</sup> + | 0x2<sup>3</sup> + | 1x2<sup>2</sup> + | 0x2<sup>1</sup> + | 0x2<sup>0</sup> | |
+|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| 32 | 16 | - | 4 | - | -| = 52 |
+
+<b>von dezimal nach binär</b>
+
+52 = ?
+
+| 2<sup>6</sup> | 2<sup>5</sup> | 2<sup>4</sup> | 2<sup>3</sup> | 2<sup>2</sup> | 2<sup>1</sup> | 2<sup>0</sup> |
+|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|  | 1 | 1 | 0 | 1 | 0 | 0 |
+
+
+Eine weitere Möglichkeit, um von der dezimalen Zahl zur binären Zahl zu gelangen, wäre die Modulo (mod) Berechnung. Modulo (mod) ist eine mathematische Funktion, die den Rest aus einer Division zweier ganzer Zahlen benennt. Dabei ist nur der Restwert relevant.
+
+Beispiel: 10 mod 3 = 1 (sprich: „zehn modulo drei ist gleich eins“)
+
+<br>
+
+## 6. Hexadezimalsystem
+
+Im Hexadezimalsystem werden Zahlen in einem Stellenwertsystem zur Basis 16 dargestellt.
+
+<img src="hexadezimal.png" alt="Hexadezimalsystem" />
+
+Die Berechnung erfolgt gleich wie beim Binärsystem, nur die Potenz ist 16 statt 2 und die Buchstaben kommen dazu.
+
+
+<b>von hexadezimal nach dezimal</b>
+
+4.F.E. = ?
+
+<img src="hexa.png" alt="Hexadezimalsystem" />
+
+<b>von dezimal nach hexadezimal</b>
+
+1278 = ?
+
+<img src="dezimal.png" alt="Hexadezimalsystem" />
+
+Vorteil gegenüber Dezimalsystem: Die Hexadezimaldarstellung der Bitfolgen ist leichter zu lesen und schneller zu schreiben.
+
+Wird verwendet für: Das Hexadezimalsystem eignet sich sehr gut, um Folgen von Bits (verwendet in der Digitaltechnik) darzustellen. Vier Stellen einer Bitfolge werden wie eine Dualzahl interpretiert und entsprechen so einer Ziffer des Hexadezimalsystems, da 16 die vierte Potenz von 2 ist. Beispiel
+ 1010.1100.1101.1100 = ACDC  = 44.252
